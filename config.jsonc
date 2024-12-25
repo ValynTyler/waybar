@@ -13,8 +13,8 @@
         "custom/media"
     ],
     "modules-center": [
-        "clock",
-        "hyprland/window"
+        "clock"
+        // "hyprland/window"
     ],
     "modules-right": [
         "mpd",
