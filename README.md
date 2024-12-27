@@ -1,2 +1,2 @@
 # Waybar config
-Based on [Anik200](https://github.com/Anik200/dotfiles/blob/super-waybar/README.md)'s dotfiles.
+Based on [kamlendras](https://github.com/kamlendras/waybar-config/blob/main/style.css)'s dotfiles.
