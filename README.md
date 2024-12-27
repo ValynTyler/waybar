@@ -1,2 +1,2 @@
 # Waybar config
-Based on [dpgraham4401](https://github.com/dpgraham4401/.dotfiles/tree/fedora/sway/.config/waybar)'s dotfiles.
+Based on [Egosummiki](https://github.com/Egosummiki/dotfiles/blob/master/waybar/)'s dotfiles.
