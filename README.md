@@ -1,2 +1,2 @@
 # Waybar config
-Based on [Egosummiki](https://github.com/Egosummiki/dotfiles/blob/master/waybar/)'s dotfiles.
+Based on [Anik200](https://github.com/Anik200/dotfiles/blob/super-waybar/README.md)'s dotfiles.
