@@ -62,12 +62,12 @@
         "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
     },
     "pulseaudio": {
-        // "scroll-step": 1, // %, can be a float
-        "format": "{format_source} {volume}% {icon}",
+        "format": "{format_source} {icon}",
+        "format-alt": "{format_source} {volume}% {icon}",
         "format-muted": "{format_source}  ",
         "format-source": "",
         "format-source-muted": "",
-        "on-click": "pwvucontrol",
+        "on-click-middle": "pwvucontrol",
         "format-icons": {
           "default": ["", ""],
           "headphone": ""
