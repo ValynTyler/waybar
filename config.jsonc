@@ -2,7 +2,7 @@
      "position": "top",
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "backlight", "network", "battery", "power-profiles-daemon"],
+    "modules-right": ["tray", "pulseaudio", "backlight", "network", "battery"],
     "mpd": {
         "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ ",
         "format-disconnected": "Disconnected ",
@@ -56,6 +56,17 @@
           "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
           "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
         }
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
