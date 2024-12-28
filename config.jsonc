@@ -8,11 +8,13 @@
     "format-alt": "{:%Y-%m-%d}"
   },
   "backlight": {
+    "min-length": 5,
     "format": "{icon}",
     "format-alt": "{percent}% {icon}",
     "format-icons": ["󰛩", "󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"]
   },
   "battery": {
+    "min-length": 5,
     "format": "{icon}",
     "format-alt": "{capacity}% {icon}",
     "format-icons": {
@@ -32,8 +34,8 @@
     }
   },
   "bluetooth": {
-    "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
     "min-length": 5,
+    "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
     "format-on": "",
     "format-off": "󰂲",
     "format-connected": "",
@@ -43,6 +45,7 @@
     "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
   },
   "network": {
+    "min-length": 5,
     "format-wifi": "{icon}",
     "format-alt": "{ifname}: {ipaddr}/{cidr}",
     "format-ethernet": "",
@@ -51,6 +54,7 @@
     "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
   },
   "pulseaudio": {
+    "min-length": 5,
     "format": "{icon}",
     "format-alt": "{volume}% {icon}",
     "format-muted": "",
