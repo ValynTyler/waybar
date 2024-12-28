@@ -56,16 +56,10 @@
   "pulseaudio": {
     "format": "{icon} ",
     "format-alt": "{volume}% {icon} ",
-    "format-muted": "",
-    "format-source": "",
-    "format-source-muted": "",
     "on-click-middle": "pwvucontrol",
     "format-icons": {
       "default": ["", ""],
-      "headphone": ""
-    },
-    "states": {
-      "muted": 0
+      "default-muted": ""
     }
   }
 }
