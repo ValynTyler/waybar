@@ -6,7 +6,7 @@
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     // "modules-center": ["hyprland/window"],
     "modules-center": ["clock"],
-    "modules-right": ["tray", "pulseaudio", "network", "backlight", "battery"],
+    "modules-right": ["tray", "pulseaudio", "backlight", "network", "battery"],
     // Modules configuration
     // "hyprland/workspaces": {
     //     "disable-scroll": true,
