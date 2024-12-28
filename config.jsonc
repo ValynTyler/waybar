@@ -3,32 +3,6 @@
     "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
     "modules-center": ["clock"],
     "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
-    "mpd": {
-        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ ",
-        "format-disconnected": "Disconnected ",
-        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
-        "unknown-tag": "N/A",
-        "interval": 2,
-        "consume-icons": {
-            "on": " "
-        },
-        "random-icons": {
-            "off": "<span color=\"#f53c3c\"></span> ",
-            "on": " "
-        },
-        "repeat-icons": {
-            "on": " "
-        },
-        "single-icons": {
-            "on": "1 "
-        },
-        "state-icons": {
-            "paused": "",
-            "playing": ""
-        },
-        "tooltip-format": "MPD (connected)",
-        "tooltip-format-disconnected": "MPD (disconnected)"
-    },
     "tray": {
         // "icon-size": 21,
         "spacing": 10
@@ -36,7 +10,6 @@
     "clock": {
         "format": "{:%I:%M }",
         "format-alt": "{:%Y-%m-%d}"
-      
     },
     "backlight": {
         // "device": "acpi_video1",
@@ -74,8 +47,6 @@
       "format-on": "",
       "format-off": "󰂲",
       "format-connected": "",
-      "format-connected-battery": " {device_alias} {device_battery_percentage}%",
-  // "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
       "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
       "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
       "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
@@ -94,14 +65,12 @@
         // "scroll-step": 1, // %, can be a float
         "format": "{format_source} {volume}% {icon}",
         "format-muted": "{format_source}  ",
-        // "format-bluetooth": "{volume}%  {format_source}",
-        // "format-bluetooth-muted": " {format_source}",
         "format-source": "",
         "format-source-muted": "",
         "on-click": "pwvucontrol",
         "format-icons": {
-          "headphone": "",
-          "default": ["", ""]
+          "default": ["", ""],
+          "headphone": ""
         },
         "states": {
           "muted": 0
