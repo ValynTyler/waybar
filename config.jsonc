@@ -46,9 +46,7 @@
   },
   "network": {
     "format-wifi": "{icon} ",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
     "format-ethernet": "",
-    "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "󱘖",
     "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
   },
