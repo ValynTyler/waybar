@@ -1,8 +1,8 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: Roboto,'Font Awesome 5', 'SFNS Display',  Helvetica, Arial, sans-serif;
-    font-size: 13px;
+    font-family: 'JetBrainsMono NF';
+    font-size: 24px;
     min-height: 0;
 }
 
@@ -37,9 +37,13 @@ window#waybar.hidden {
     border-bottom: 3px solid #ffffff;
 }
 
-#clock, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode, #idle_inhibitor {
-    padding: 0 10px;
-    margin: 0 5px;
+#clock, #bluetooth, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode {
+    /* padding: 0 10px; */
+    /* margin: 0 5px; */
+}
+
+#bluetooth {
+  background-color: #123456;
 }
 
 #clock {
