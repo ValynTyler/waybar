@@ -69,6 +69,7 @@
       }
     },
     "bluetooth": {
+      "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
       "min-length": 5,
       "format-on": "",
       "format-off": "󰂲",
