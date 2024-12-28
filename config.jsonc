@@ -90,17 +90,16 @@
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
-        "format": "{volume}%  {format_source} {icon}",
-        "format-bluetooth": "{volume}%  {format_source}",
-        "format-bluetooth-muted": " {format_source}",
-        "format-muted": " {format_source}",
+        "format": "{volume}% {icon}  {format_source}",
+        "format-muted": "  {format_source}",
+        // "format-bluetooth": "{volume}%  {format_source}",
+        // "format-bluetooth-muted": " {format_source}",
         "format-source": "{volume}% ",
         "format-source-muted": "",
         "on-click": "pwvucontrol",
         "format-icons": {
           "headphone": "",
-          "default": ["", ""],
-          "muted": ""
+          "default": ["", ""]
         },
         "states": {
           "muted": 0
