@@ -85,9 +85,9 @@
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "{icon}",
         "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
+        "format-ethernet": "",
         "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "Disconnected ",
+        "format-disconnected": "󱘖",
         "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
     },
     "pulseaudio": {
