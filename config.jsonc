@@ -5,7 +5,7 @@
   "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
   "clock": {
     "format": "{:%I:%M}",
-    "format-alt": "{:%Y-%m-%d}"
+    "format-alt": "{:%d %B %Y}"
   },
   "backlight": {
     "format": "{icon} ",
