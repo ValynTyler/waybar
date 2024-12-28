@@ -1,87 +1,68 @@
 {
-     "position": "top",
-    "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
-    "modules-center": ["clock"],
-    "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
-    "tray": {
-        // "icon-size": 21,
-        "spacing": 10
-    },
-    "clock": {
-        "format": "{:%I:%M }",
-        "format-alt": "{:%Y-%m-%d}"
-    },
-    "backlight": {
-        // "device": "acpi_video1",
-        "format": "{icon}",
-        "format-alt": "{percent}% {icon}",
-        "format-icons": ["󰛩", "󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"]
-    },
-    "battery": {
-        // "states": {
-        //     "good": 95,
-        //     "warning": 30,
-        //     "critical": 15
-        // },
-        "format": "{icon}",
-        "format-alt": "{capacity}% {icon}",
-        "format-icons": {
-          "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
-          "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
-        }
-    },
-    "power-profiles-daemon": {
-      "format": "{icon}",
-      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
-      "tooltip": true,
-      "format-icons": {
-        "default": "",
-        "performance": "",
-        "balanced": "",
-        "power-saver": ""
-      }
-    },
-    "bluetooth": {
-      "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
-      "min-length": 5,
-      "format-on": "",
-      "format-off": "󰂲",
-      "format-connected": "",
-      "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
-      "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
-      "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
-      "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
-    },
-    "network": {
-        // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{icon}",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}",
-        "format-ethernet": "",
-        "format-linked": "{ifname} (No IP) ",
-        "format-disconnected": "󱘖",
-        "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
-    },
-    "pulseaudio": {
-        "format": "{format_source} {icon}",
-        "format-alt": "{format_source} {volume}% {icon}",
-        "format-muted": "{format_source}  ",
-        "format-source": "",
-        "format-source-muted": "",
-        "on-click-middle": "pwvucontrol",
-        "format-icons": {
-          "default": ["", ""],
-          "headphone": ""
-        },
-        "states": {
-          "muted": 0
-        }
-    },
-    "custom/media": {
-        "format": " {}",
-        "return-type": "json",
-        "max-length": 40,
-        "escape": true,
-        "exec": "$HOME/.config/waybar/mediaplayer.py 2> /dev/null" // Script in resources folder
-        // "exec": "$HOME/.config/waybar/mediaplayer.py --player spotify 2> /dev/null" // Filter player based on name
+  "position": "top",
+  "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
+  "modules-center": ["clock"],
+  "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
+  "clock": {
+    "format": "{:%I:%M }",
+    "format-alt": "{:%Y-%m-%d}"
+  },
+  "backlight": {
+    "format": "{icon}",
+    "format-alt": "{percent}% {icon}",
+    "format-icons": ["󰛩", "󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"]
+  },
+  "battery": {
+    "format": "{icon}",
+    "format-alt": "{capacity}% {icon}",
+    "format-icons": {
+      "default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+      "charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
     }
+  },
+  "power-profiles-daemon": {
+    "format": "{icon}",
+    "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+    "tooltip": true,
+    "format-icons": {
+      "default": "",
+      "performance": "",
+      "balanced": "",
+      "power-saver": ""
+    }
+  },
+  "bluetooth": {
+    "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
+    "min-length": 5,
+    "format-on": "",
+    "format-off": "󰂲",
+    "format-connected": "",
+    "tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+    "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+    "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+    "tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
+  },
+  "network": {
+    "format-wifi": "{icon}",
+    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "format-ethernet": "",
+    "format-linked": "{ifname} (No IP) ",
+    "format-disconnected": "󱘖",
+    "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
+  },
+  "pulseaudio": {
+    "format": "{icon}",
+    "format-alt": "{volume}% {icon}",
+    "format-muted": "",
+    "format-source": "",
+    "format-source-muted": "",
+    "on-click-middle": "pwvucontrol",
+    "format-icons": {
+      "default": ["", ""],
+      "headphone": ""
+    },
+    "states": {
+      "muted": 0
+    }
+  }
 }
