@@ -81,15 +81,16 @@
         "format": "{capacity}% {icon}",
         "format-charging": "{capacity}% {icon}󱐋",
         "format-alt": "{time} ",
-        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁾", "󰁿", "󰂀", "󰂂", "󰁹"],
+        "format-icons": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁾", "󰁿", "󰂀", "󰂂", "󰁹"]
     },
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
-        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-wifi": "{icon}",
         "format-ethernet": "{ifname}: {ipaddr}/{cidr} ",
         "format-linked": "{ifname} (No IP) ",
         "format-disconnected": "Disconnected ",
-        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "format-icons": [ "󰤮 ", "󰤟 ", "󰤥 ", "󰤨 " ]
     },
     "pulseaudio": {
         // "scroll-step": 1, // %, can be a float
