@@ -8,9 +8,8 @@
     "format-alt": "{:%Y-%m-%d}"
   },
   "backlight": {
-    "min-length": 5,
-    "format": "{icon}",
-    "format-alt": "{percent}% {icon}",
+    "format": "{icon} ",
+    "format-alt": "{percent}% {icon} ",
     "format-icons": ["󰛩", "󱩎", "󱩏", "󱩐", "󱩑", "󱩒", "󱩓", "󱩔", "󱩕", "󱩖", "󰛨"]
   },
   "battery": {
