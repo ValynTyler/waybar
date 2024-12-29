@@ -45,8 +45,8 @@
   },
   "network": {
     "format-wifi": "{icon} ",
-    "format-ethernet": "",
-    "format-disconnected": "󱘖",
+    "format-ethernet": "󰈀 ",
+    "format-disconnected": "󱘖 ",
     "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
   },
   "pulseaudio": {
