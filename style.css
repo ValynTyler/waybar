@@ -2,30 +2,35 @@
   border: none;
   border-radius: 0;
   font-family: 'JetBrainsMono';
-  font-size: 24px;
+  font-size: 18px;
   min-height: 0;
 }
 
 window#waybar {
-  background: rgba(43, 48, 59, 0.5);
-  border-bottom: 3px solid rgba(100, 114, 125, 0.5);
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 100px;
+  padding-top: 10;
+  margin-top: 100px;
   color: #ffffff;
 }
 
 window#waybar.hidden {
   opacity: 0.0;
 }
+
+.modules-right, .modules-left, .modules-center {
+  margin: 5px;
+}
+
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button {
+  border-radius: 100px;
   padding: 0 5px;
-  background: transparent;
   color: #ffffff;
-  border-bottom: 3px solid transparent;
 }
 
 #workspaces button.active {
   background: #64727D;
-  border-bottom: 3px solid #ffffff;
 }
 
 #workspaces button.urgent {
@@ -38,8 +43,13 @@ window#waybar.hidden {
 }
 
 #clock, #bluetooth, #battery, #cpu, #memory, #temperature, #backlight, #network, #pulseaudio, #custom-media, #tray, #mode {
-  /* padding: 0 10px; */
-  /* margin: 0 5px; */
+  margin: 0 5px;
+  padding: 0 5px;
+  border-radius: 100px;
+}
+
+#bluetooth {
+  padding: 0 9;
 }
 
 #bluetooth {
