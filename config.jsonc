@@ -47,7 +47,9 @@
     "format-wifi": "{icon} ",
     "format-ethernet": "󰈀 ",
     "format-disconnected": "󱘖 ",
-    "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ]
+    "format-icons": [ "󰤮", "󰤟", "󰤥", "󰤨" ],
+    "tooltip-format-ethernet": "{ipaddr}",
+    "tooltip-format-wifi": "{essid}"
   },
   "pulseaudio": {
     "format": "{icon} ",
