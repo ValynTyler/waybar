@@ -7,7 +7,7 @@
 }
 
 window#waybar {
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(29, 32, 33, .9);
   border-radius: 100px;
   padding-top: 10;
   margin-top: 100px;
@@ -30,7 +30,7 @@ window#waybar.hidden {
 }
 
 #workspaces button.active {
-  background: #64727D;
+  background: #83a598;
 }
 
 #workspaces button.urgent {
@@ -53,21 +53,21 @@ window#waybar.hidden {
 }
 
 #bluetooth {
-  background-color: #123456;
+  /* background-color: #458488; */
 }
 
 #clock {
-  background-color: #64727D;
+  /* background-color: #64727D; */
 }
 
 #battery {
-  background-color: #ffffff;
-  color: #000000;
+  /* background-color: #ffffff; */
+  /* color: #000000; */
 }
 
 #battery.charging {
-  color: #ffffff;
-  background-color: #26A65B;
+  /* color: #ffffff; */
+  /* background-color: #26A65B; */
 }
 
 @keyframes blink {
@@ -87,30 +87,21 @@ window#waybar.hidden {
   animation-direction: alternate;
 }
 
-#cpu {
-  background: #2ecc71;
-  color: #000000;
-}
-
-#memory {
-  background: #9b59b6;
-}
-
 #backlight {
-  background: #90b1b1;
+  /* background: #90b1b1; */
 }
 
 #network {
-  background: #2980b9;
+  /* background: #2980b9; */
 }
 
 #network.disconnected {
-  background: #f53c3c;
+  /* background: #f53c3c; */
 }
 
 #pulseaudio {
-  background: #f1c40f;
-  color: #000000;
+  /* background: #f1c40f; */
+  /* color: #000000; */
 }
 
 #pulseaudio.muted {
@@ -118,36 +109,6 @@ window#waybar.hidden {
   color: #2a5c45;
 }
 
-#custom-media {
-  background: #66cc99;
-  color: #2a5c45;
-}
-
-.custom-spotify {
-  background: #66cc99;
-}
-
-.custom-vlc {
-  background: #ffa000;
-}
-
-#temperature {
-  background: #f0932b;
-}
-
-#temperature.critical {
-  background: #eb4d4b;
-}
-
 #tray {
-  background-color: #2980b9;
-}
-
-#idle_inhibitor {
-  background-color: #2d3436;
-}
-
-#idle_inhibitor.activated {
-  background-color: #ecf0f1;
-  color: #2d3436;
+  /* background-color: #2980b9; */
 }
