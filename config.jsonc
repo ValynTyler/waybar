@@ -1,6 +1,7 @@
 {
+  "margin": 8,
   "position": "top",
-  "modules-left": ["hyprland/workspaces", "hyprland/mode", "custom/media"],
+  "modules-left": ["hyprland/workspaces", "custom/media"],
   "modules-center": ["clock"],
   "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
   "clock": {
