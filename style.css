@@ -70,14 +70,15 @@ window#waybar.hidden {
 
 #bluetooth {
   padding: 0 9;
+  color: @bright_blue;
 }
 
 #bluetooth.connected {
   color: @blue;
 }
 
-#bluetooth {
-  color: @bright_blue;
+#bluetooth.off {
+  color: @bright_red;
 }
 
 #clock {
@@ -107,7 +108,7 @@ window#waybar.hidden {
 }
 
 #network.disconnected {
-  color: @bright_red;
+  color: @red;
 }
 
 #pulseaudio {
