@@ -99,7 +99,7 @@ window#waybar.hidden {
 }
 
 #network.disconnected {
-  /* background: #f53c3c; */
+  color: @bright_red;
 }
 
 #pulseaudio {
