@@ -32,7 +32,7 @@ window#waybar {
   border-radius: 100px;
   padding-top: 10;
   margin-top: 100px;
-  color: #ffffff;
+  color: @white;
 }
 
 window#waybar.hidden {
@@ -43,7 +43,6 @@ window#waybar.hidden {
   margin: 5px;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 #workspaces button {
   border-radius: 100px;
   padding: 0 5px;
@@ -74,20 +73,17 @@ window#waybar.hidden {
 }
 
 #bluetooth {
-  /* background-color: #458488; */
+  color: @bright_blue;
 }
 
 #clock {
-  /* background-color: #64727D; */
 }
 
 #battery {
-  /* background-color: #ffffff; */
-  /* color: #000000; */
 }
 
 #battery.charging {
-  color: @aqua;
+  color: @bright_green;
 }
 
 #battery.critical:not(.charging) {
@@ -95,11 +91,11 @@ window#waybar.hidden {
 }
 
 #backlight {
-  /* background: #90b1b1; */
+  color: @bright_yellow;
 }
 
 #network {
-  /* background: #2980b9; */
+  color: @bright_aqua;
 }
 
 #network.disconnected {
@@ -107,8 +103,7 @@ window#waybar.hidden {
 }
 
 #pulseaudio {
-  /* background: #f1c40f; */
-  /* color: #000000; */
+  color: @bright_purple;
 }
 
 #pulseaudio.muted {
