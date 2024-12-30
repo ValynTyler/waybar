@@ -87,25 +87,11 @@ window#waybar.hidden {
 }
 
 #battery.charging {
-  /* color: #ffffff; */
-  /* background-color: #26A65B; */
-}
-
-@keyframes blink {
-  to {
-    background-color: #ffffff;
-    color: #000000;
-  }
+  color: @aqua;
 }
 
 #battery.critical:not(.charging) {
-  background: @bright_red;
-  /* color: #ffffff; */
-  /* animation-name: blink; */
-  /* animation-duration: 0.5s; */
-  /* animation-timing-function: linear; */
-  /* animation-iteration-count: infinite; */
-  /* animation-direction: alternate; */
+  color: @bright_red;
 }
 
 #backlight {
