@@ -86,6 +86,10 @@ window#waybar.hidden {
   color: @bright_green;
 }
 
+#battery.warning:not(.charging) {
+  color: @bright_orange;
+}
+
 #battery.critical:not(.charging) {
   color: @bright_red;
 }
