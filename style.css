@@ -16,6 +16,9 @@
 @define-color white	#ebdbb2;
 @define-color background #504945;
 
+@define-color orange #d65d0e;
+@define-color bright_orange #fe8019;
+
 * {
   border: none;
   border-radius: 0;
