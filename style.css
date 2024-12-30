@@ -72,6 +72,10 @@ window#waybar.hidden {
   padding: 0 9;
 }
 
+#bluetooth.connected {
+  color: @blue;
+}
+
 #bluetooth {
   color: @bright_blue;
 }
