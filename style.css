@@ -43,6 +43,15 @@ window#waybar.hidden {
   margin: 5px;
 }
 
+tooltip {
+  background: rgba(29, 32, 33, .9);
+  border-radius: 10px;
+}
+
+tooltip label {
+  color: @white;
+}
+
 #workspaces button {
   border-radius: 100px;
   padding: 0 5px;
