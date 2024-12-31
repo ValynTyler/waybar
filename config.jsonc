@@ -49,7 +49,8 @@
       "critical": "󰂃"
     },
     "states": {
-      "good": 80,
+      "charged": 80,
+      "default": 79, // this is here to register non-charged state
       "warning": 30,
       "critical": 15
     },

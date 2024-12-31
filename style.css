@@ -105,7 +105,7 @@ tooltip label {
 #battery {
 }
 
-#battery.good {
+#battery.charged {
   color: @bright_green;
 }
 
