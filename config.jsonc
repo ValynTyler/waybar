@@ -68,7 +68,8 @@
     }
   },
   "bluetooth": {
-    "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
+    // "on-click": "~/.config/waybar/modules/bluetooth_toggle.sh",
+    "on-click": "blueman-manager",
     "format-on": "",
     "format-off": "󰂲",
     "format-connected": "󰂱",
