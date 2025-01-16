@@ -6,7 +6,7 @@
   "position": "top",
   "modules-left": ["hyprland/workspaces", "custom/media"],
   "modules-center": ["clock"],
-  "modules-right": ["tray", "bluetooth", "network", "pulseaudio", "backlight", "battery"],
+  "modules-right": ["bluetooth", "network", "pulseaudio", "backlight", "battery"],
   "clock": {
     "format": "{:%B %d, %H:%M}",
     "format-alt": "{:%A, %B %d, %Y}",
