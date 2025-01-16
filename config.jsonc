@@ -32,7 +32,6 @@
       "on-scroll-down": "shift_down"
     }
   },
-
   "backlight": {
     "format": "{icon} ",
     "format-alt": "{percent}% {icon} ",
