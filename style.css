@@ -133,11 +133,6 @@ tooltip label {
   color: @bright_purple;
 }
 
-#pulseaudio.muted {
-  background: @bright_red;
-  color: @black;
-}
-
 #tray {
   /* background-color: #2980b9; */
 }
